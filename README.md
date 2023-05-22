@@ -1,8 +1,10 @@
 # volume-notification-dunst
+This repo is just a fork that switches pulse for amixer
+
 This script enables dunst (or any other notification daemon) to send traditional volume notifications (screenshots below).
 Inspired by https://gist.github.com/sebastiencs/5d7227f388d93374cebdf72e783fbd6a
 
-This differs from the one linked because it uses pulseaudio and doesn't require dunstify, thus making this useable with any notification daemon.
+This differs from the one linked because it uses amixer and doesn't require dunstify, thus making this useable with any notification daemon.
 
 # installation
 The script requires the faba icon pack to be installed (otherwise icons won't be displayed) and relies 
